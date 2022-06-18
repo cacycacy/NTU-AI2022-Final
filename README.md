@@ -1,2 +1,2 @@
 # NTU-AI2022-Final
-| python main.py
+python main.py
