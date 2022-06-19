@@ -21,7 +21,6 @@ from CurricularFace.datasets.common import compute_cosine_similarity
 
 
 class FaceDetectorWithID():
-
     def __init__(self):
         self.device = conf.device
         self.load_models()
