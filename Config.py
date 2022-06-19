@@ -7,7 +7,7 @@ class Config:
     checkpoints = "checkpoints"
     load_detect_model = "490.pth"
     load_recog_model = "34.pth"
-    member_path = "./Emroll_members"
+    member_path = "./Enrolled_members"
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     threshold = 0.35    # detection threshold
